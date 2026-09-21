@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About — HistoScan</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    {% include 'base.html' %}
+
+    <div class="about-section">
+        <div class="about-content fade-in-up">
+            <h1>About HistoScan</h1>
+            <p>
+                HistoScan is an innovative application designed to assist pathologists in the early detection of breast cancer through advanced histopathology tissue analysis. Our mission is to leverage the power of deep learning to improve diagnostic accuracy and efficiency.
+            </p>
+            <h2>Our Technology</h2>
+            <p>
+                Utilizing a state-of-the-art ResNet-50 Convolutional Neural Network, HistoScan analyzes histopathology images to classify tissue samples as benign or malignant. Our model has been trained on a vast dataset of H&E stained tissue patches, ensuring high reliability and performance.
+            </p>
+            <h2>Our Team</h2>
+            <p>
+                We are a dedicated team of researchers, data scientists, and medical professionals committed to advancing cancer diagnostics. Our collaborative efforts aim to provide clinicians with the tools they need to make informed decisions quickly and accurately.
+            </p>
+            <h2>Contact Us</h2>
+            <p>
+                For inquiries or feedback, please reach out to us at <a href="mailto:info@histoscan.com">info@histoscan.com</a>.
+            </p>
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+</body>
+</html>

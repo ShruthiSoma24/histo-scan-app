@@ -1,0 +1,8 @@
+Flask==2.2.2
+tensorflow==2.10.0
+numpy==1.23.1
+pillow==9.2.0
+opencv-python==4.6.0.66
+scikit-learn==1.1.2
+gunicorn==20.1.0
+faiss-cpu==1.7.2
